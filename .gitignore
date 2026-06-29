@@ -12,3 +12,27 @@ __pycache__/
 # IDE
 .idea/
 .vscode/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded datasets & generated data splits
+chapter_6/sms_spam_collection.zip
+chapter_6/sms_spam_collection/
+chapter_6/train.csv
+chapter_6/val.csv
+chapter_6/test.csv
+chapter_7/instruction-data.json
+*.csv
+
+# Model weights & checkpoints (GPT-2 download artifacts)
+gpt2/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gz
